@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Ambientes virtuais / uv
+.venv/
+
+# Ferramentas
+.pytest_cache/
+.ruff_cache/
+
+# IDE / SO
+.idea/
+.DS_Store
+
+# Dados pessoais (extratos bancários) e artefatos gerados
+*.csv
+model.joblib
