@@ -20,9 +20,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.pipeline import Pipeline
 from sklearn.svm import LinearSVC
 
-from config import CATEGORIES, ML_MIN_EXAMPLES_PER_CLASS, Settings
-from normalize import normalize
-from rules import is_ignorable, load_merchants, match_keyword, match_merchant
+from .config import CATEGORIES, ML_MIN_EXAMPLES_PER_CLASS, Settings
+from .normalize import normalize
+from .rules import is_ignorable, load_merchants, match_keyword, match_merchant
 
 log = logging.getLogger(__name__)
 

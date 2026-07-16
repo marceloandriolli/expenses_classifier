@@ -7,8 +7,8 @@ import logging
 import re
 from pathlib import Path
 
-from config import CATEGORIES
-from normalize import strip_accents
+from .config import CATEGORIES
+from .normalize import strip_accents
 
 log = logging.getLogger(__name__)
 

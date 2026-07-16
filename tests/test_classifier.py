@@ -8,10 +8,10 @@ from pathlib import Path
 import pandas as pd
 import pytest
 
-from cascade import Classifier
-from config import IGNORE_LABEL, REVIEW_LABEL, Settings
-from normalize import normalize
-from rules import (
+from expense_classifier.cascade import Classifier
+from expense_classifier.config import IGNORE_LABEL, REVIEW_LABEL, Settings
+from expense_classifier.normalize import normalize
+from expense_classifier.rules import (
     MerchantsFileError,
     is_ignorable,
     load_merchants,

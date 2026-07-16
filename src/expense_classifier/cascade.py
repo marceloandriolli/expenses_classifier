@@ -7,15 +7,15 @@ from dataclasses import dataclass
 
 import pandas as pd
 
-import model as ml
-from config import (
+from . import model as ml
+from .config import (
     IGNORE_LABEL,
     ML_CONFIDENCE_THRESHOLD,
     REVIEW_LABEL,
     Settings,
 )
-from normalize import normalize
-from rules import (
+from .normalize import normalize
+from .rules import (
     is_ignorable,
     load_merchants,
     looks_like_person,

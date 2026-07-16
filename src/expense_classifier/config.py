@@ -16,8 +16,6 @@ import shutil
 from dataclasses import dataclass, field
 from pathlib import Path
 
-__version__ = "0.0.1"
-
 ENV_HOME = "EXPENSE_CLASSIFIER_HOME"
 
 CATEGORIES: tuple[str, ...] = (

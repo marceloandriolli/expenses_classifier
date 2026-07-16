@@ -9,10 +9,11 @@ from pathlib import Path
 
 import pandas as pd
 
-import model as ml
-from cascade import Classifier
-from config import IGNORE_LABEL, REVIEW_LABEL, Settings, __version__
-from rules import MerchantsFileError
+from . import __version__
+from . import model as ml
+from .cascade import Classifier
+from .config import IGNORE_LABEL, REVIEW_LABEL, Settings
+from .rules import MerchantsFileError
 
 log = logging.getLogger("expense_classifier")
 
